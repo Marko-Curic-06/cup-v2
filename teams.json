@@ -1,0 +1,277 @@
+[
+{
+"name":"Breadlandia",
+
+"formation":"4-3-3",
+
+"flag":"images/flags/breadlandia.png",
+
+"players":[
+
+
+{
+"name":"Boris Wheatman",
+"position":"GK",
+"age":27,
+"rating":54,
+"type":"starter"
+},
+
+{
+"name":"Luka Crustić",
+"position":"RB",
+"age":24,
+"rating":50,
+"type":"starter"
+},
+
+{
+"name":"Perry Fretz",
+"position":"CB",
+"age":68,
+"rating":49,
+"type":"starter"
+},
+
+{
+"name":"Ivan Doughov",
+"position":"CB",
+"age":30,
+"rating":53,
+"type":"starter"
+},
+
+{
+"name":"Emil Baker",
+"position":"LB",
+"age":22,
+"rating":51,
+"type":"starter"
+},
+
+{
+"name":"Quizno",
+"position":"CM",
+"age":53,
+"rating":61,
+"type":"starter"
+},
+
+{
+"name":"Niko Ćurić",
+"position":"CM",
+"age":10,
+"rating":39,
+"type":"starter"
+},
+
+{
+"name":"Stefan Loafić",
+"position":"CAM",
+"age":26,
+"rating":56,
+"type":"starter"
+},
+
+{
+"name":"Marko Ćurić",
+"position":"RW",
+"age":16,
+"rating":52,
+"type":"starter"
+},
+
+{
+"name":"Miki Ćurić",
+"position":"ST",
+"age":43,
+"rating":73,
+"type":"starter"
+},
+
+{
+"name":"Harlan Pagnutti",
+"position":"LW",
+"age":16,
+"rating":47,
+"type":"starter"
+},
+
+
+{
+"name":"Noah Grain",
+"position":"ST",
+"rating":46,
+"type":"bench"
+},
+
+{
+"name":"Viktor Bunov",
+"position":"CB",
+"rating":48,
+"type":"bench"
+},
+
+{
+"name":"Andre Toast",
+"position":"CM",
+"rating":45,
+"type":"bench"
+},
+
+{
+"name":"Filip Rye",
+"position":"RW",
+"rating":44,
+"type":"bench"
+},
+
+{
+"name":"Owen Mills",
+"position":"GK",
+"rating":43,
+"type":"bench"
+}
+
+]
+},
+
+
+
+{
+"name":"Edan Island",
+
+"formation":"4-3-3",
+
+"flag":"images/flags/edan.png",
+
+"players":[
+
+
+{
+"name":"Amine Dahar",
+"position":"GK",
+"age":16,
+"rating":40,
+"type":"starter"
+},
+
+{
+"name":"Mason Shore",
+"position":"RB",
+"age":18,
+"rating":42,
+"type":"starter"
+},
+
+{
+"name":"Tyler Coast",
+"position":"CB",
+"age":20,
+"rating":45,
+"type":"starter"
+},
+
+{
+"name":"Owen Harbor",
+"position":"CB",
+"age":24,
+"rating":46,
+"type":"starter"
+},
+
+{
+"name":"William Wicker",
+"position":"LB",
+"rating":60,
+"type":"starter"
+},
+
+{
+"name":"Edan Laakso",
+"position":"CM",
+"age":15,
+"rating":43,
+"type":"starter"
+},
+
+{
+"name":"Samuel Pine",
+"position":"CM",
+"age":22,
+"rating":44,
+"type":"starter"
+},
+
+{
+"name":"Jonathan Laakso",
+"position":"CAM",
+"age":38,
+"rating":47,
+"type":"starter"
+},
+
+{
+"name":"Phoenix Laakso",
+"position":"RW",
+"age":8,
+"rating":20,
+"type":"starter"
+},
+
+{
+"name":"Ryder Laakso",
+"position":"ST",
+"age":13,
+"rating":37,
+"type":"starter"
+},
+
+{
+"name":"Hudson Laakso",
+"position":"LW",
+"age":11,
+"rating":30,
+"type":"starter"
+},
+
+
+{
+"name":"Caleb Ocean",
+"position":"RW",
+"rating":39,
+"type":"bench"
+},
+
+{
+"name":"Liam Forest",
+"position":"CM",
+"rating":41,
+"type":"bench"
+},
+
+{
+"name":"Nathan Bay",
+"position":"CB",
+"rating":42,
+"type":"bench"
+},
+
+{
+"name":"Ethan Cliff",
+"position":"LB",
+"rating":40,
+"type":"bench"
+},
+
+{
+"name":"Dylan Wave",
+"position":"GK",
+"rating":38,
+"type":"bench"
+}
+
+]
+
+}
+]
