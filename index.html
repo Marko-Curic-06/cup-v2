@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
 
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>The Markane Cup</title>
+<title>Markane Cup</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -17,19 +13,18 @@
 <body>
 
 
-<!-- HOME SCREEN -->
+<!-- WELCOME SCREEN -->
 
-<div id="homeScreen" class="screen">
+<div id="welcomeScreen">
 
-
-<h1 id="welcome">
+<h1 class="drop">
 Welcome To
 </h1>
 
 
-<h1 id="title">
+<h2 class="drop delay">
 THE MARKANE CUP
-</h1>
+</h2>
 
 
 <button id="playButton">
@@ -43,19 +38,17 @@ PLAY
 
 
 
-<!-- TEAM SELECTION -->
+<!-- TEAM SELECTION SCREEN -->
 
-<div id="teamSelection" class="screen hidden">
+<div id="teamSelection" class="hidden">
 
 
 <h1>
-SELECT YOUR NATION
+SELECT YOUR TEAM
 </h1>
 
 
-<div id="teamContainer">
-
-</div>
+<div id="teamList"></div>
 
 
 <button id="confirmTeam">
@@ -71,22 +64,72 @@ CONFIRM TEAM
 
 
 
-<!-- TOURNAMENT BRACKET -->
+<!-- TOURNAMENT SCREEN -->
 
-<div id="tournamentScreen" class="screen hidden">
+<div id="tournamentScreen" class="hidden">
 
 
 <h1>
-MARKANE CUP BRACKET
+🏆 MARKANE CUP 🏆
 </h1>
+
 
 
 <div id="bracket">
 
+
+<div class="round">
+
+
+<h2>
+Quarter Finals
+</h2>
+
+
+<div id="quarterFinals"></div>
+
+
+</div>
+
+
+
+
+<div class="round">
+
+
+<h2>
+Semi Finals
+</h2>
+
+
+<div id="semiFinals"></div>
+
+
+</div>
+
+
+
+
+
+<div class="round">
+
+
+<h2>
+Final
+</h2>
+
+
+<div id="finalMatch"></div>
+
+
 </div>
 
 
 </div>
+
+
+</div>
+
 
 
 
@@ -96,38 +139,17 @@ MARKANE CUP BRACKET
 
 <!-- MATCH SCREEN -->
 
-<div id="matchScreen" class="screen hidden">
+
+<div id="matchScreen" class="hidden">
 
 
 <h1 id="matchTitle">
-
 </h1>
 
 
-
-<div class="teamsPlaying">
-
-
-<div id="homeTeam">
-
-</div>
-
-
-<div id="score">
-
+<h2 id="scoreBoard">
 0 - 0
-
-</div>
-
-
-<div id="awayTeam">
-
-</div>
-
-
-</div>
-
-
+</h2>
 
 
 
@@ -137,19 +159,87 @@ MARKANE CUP BRACKET
 
 
 
-<div id="matchEvents">
-
-</div>
-
-
-
 <button id="simulateButton">
 SIMULATE MATCH
 </button>
 
 
 
+<div id="matchEvents">
+
 </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- BROADCAST SCREEN -->
+
+
+<div id="broadcastScreen" class="hidden">
+
+
+<h1 id="broadcastTitle">
+</h1>
+
+
+<h2 id="broadcastTeams">
+</h2>
+
+
+
+<div id="broadcastContent">
+</div>
+
+
+
+<button id="nextButton">
+CONTINUE
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- STATISTICS -->
+
+
+<div id="statistics">
+
+
+<h2>
+Tournament Statistics
+</h2>
+
+
+<div id="goldenBoot">
+
+</div>
+
+
+
+<div id="assistLeaders">
+
+</div>
+
+
+</div>
+
+
 
 
 
@@ -160,7 +250,7 @@ SIMULATE MATCH
 <!-- CHAMPION SCREEN -->
 
 
-<div id="championScreen" class="screen hidden">
+<div id="championScreen" class="hidden">
 
 
 <h1>
@@ -168,12 +258,17 @@ SIMULATE MATCH
 </h1>
 
 
-<h2 id="winnerName">
 
-</h2>
+<div id="winnerName">
+
+</div>
 
 
 </div>
+
+
+
+
 
 
 
